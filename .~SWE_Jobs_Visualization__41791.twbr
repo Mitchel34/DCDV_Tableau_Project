@@ -598,10 +598,10 @@
           </datasource-dependencies>
           <filter class='quantitative' column='[federated.0z28jet0nrandf180jljh1w88sv6].[rank:sum:Calculation_2940780235170861063:qk:2]' included-values='in-range'>
             <min>1</min>
-            <max>11</max>
+            <max>76</max>
           </filter>
           <filter class='quantitative' column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Mean Software Developer Salary (adjusted):qk]' included-values='in-range'>
-            <min>110095.0</min>
+            <min>72811.0</min>
             <max>117552.0</max>
           </filter>
           <slices>
@@ -1251,17 +1251,30 @@
             <min>80314.0</min>
             <max>142101.0</max>
           </filter>
+          <filter class='quantitative' column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Median Home Price:qk]' included-values='in-range'>
+            <min>124100.0</min>
+            <max>1193600.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Number of Software Developer Jobs:qk]' included-values='in-range'>
+            <min>1120.0</min>
+            <max>98650.0</max>
+          </filter>
           <filter class='quantitative' column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk]' included-values='in-range'>
             <min>879.29999999999995</min>
-            <max>54933.0</max>
+            <max>4163.3000000000002</max>
           </filter>
           <slices>
-            <column>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk]</column>
             <column>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Mean Software Developer Salary (unadjusted):qk]</column>
+            <column>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Number of Software Developer Jobs:qk]</column>
+            <column>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Median Home Price:qk]</column>
+            <column>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Mean Software Developer Salary (unadjusted):qk]' field-type='quantitative' max='152083.66890742336' min='60000.0' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' center='2100.0' field='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk]' symmetric='false' type='custom-interpolated'>
               <color-palette custom='true' name='' type='ordered-diverging'>
@@ -1290,7 +1303,7 @@
                 <color>#ee9129</color>
               </color-palette>
             </encoding>
-            <encoding attr='color' center='0.20000000000000001' field='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Calculation_2940780235170861063:qk]' reverse='true' symmetric='false' type='custom-interpolated'>
+            <encoding attr='color' center='0.2' field='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Calculation_2940780235170861063:qk]' reverse='true' symmetric='false' type='custom-interpolated'>
               <color-palette custom='true' name='' type='ordered-diverging'>
                 <color>#5664d3</color>
                 <color>#6470d3</color>
@@ -1302,21 +1315,70 @@
                 <color>#bbbed7</color>
                 <color>#cacbd8</color>
                 <color>#d9d9d9</color>
-                <color>#d8c0c0</color>
-                <color>#d7a8a8</color>
-                <color>#d68f8f</color>
-                <color>#d57777</color>
-                <color>#d46060</color>
-                <color>#d34848</color>
-                <color>#d23131</color>
-                <color>#d11919</color>
-                <color>#d10303</color>
+                <color>#d9cec2</color>
+                <color>#dac4ac</color>
+                <color>#dbb995</color>
+                <color>#dcaf7e</color>
+                <color>#dca467</color>
+                <color>#dd9950</color>
+                <color>#de8e39</color>
+                <color>#df8321</color>
+                <color>#e0790a</color>
               </color-palette>
             </encoding>
           </style-rule>
         </style>
         <panes>
-          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Calculation_2940780235170861063:qk]' />
+              <size column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Number of Software Developer Jobs:qk]' />
+              <text column='[federated.0z28jet0nrandf180jljh1w88sv6].[none:City:nk]' />
+              <lod column='[federated.0z28jet0nrandf180jljh1w88sv6].[none:City:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='1.4392818212509155' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='591' />
+                <format attr='maxwidth' value='591' />
+                <format attr='minheight' value='268' />
+                <format attr='maxheight' value='268' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Calculation_2940780235170861063:qk]' />
+              <size column='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Number of Software Developer Jobs:qk]' />
+              <text column='[federated.0z28jet0nrandf180jljh1w88sv6].[none:City:nk]' />
+              <lod column='[federated.0z28jet0nrandf180jljh1w88sv6].[none:City:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='1.4392818212509155' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Median Home Price:qk]'>
             <view>
               <breakdown value='auto' />
             </view>
@@ -1338,8 +1400,8 @@
             </style>
           </pane>
         </panes>
-        <rows>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Median Home Price:qk]</rows>
-        <cols>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk]</cols>
+        <rows>([federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk] + [federated.0z28jet0nrandf180jljh1w88sv6].[sum:Median Home Price:qk])</rows>
+        <cols>[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Mean Software Developer Salary (unadjusted):qk]</cols>
       </table>
       <simple-id uuid='{745739E4-80F5-4394-80A4-DD1A664F3D29}' />
     </worksheet>
@@ -1433,8 +1495,10 @@
         <edge name='right'>
           <strip size='160'>
             <card param='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Rent avg:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
-            <card pane-specification-id='4' param='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Number of Software Developer Jobs:qk]' type='size' />
-            <card pane-specification-id='4' param='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Calculation_2940780235170861063:qk]' type='color' />
+            <card param='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Median Home Price:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Number of Software Developer Jobs:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='7' param='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Number of Software Developer Jobs:qk]' type='size' />
+            <card pane-specification-id='7' param='[federated.0z28jet0nrandf180jljh1w88sv6].[sum:Calculation_2940780235170861063:qk]' type='color' />
           </strip>
         </edge>
       </cards>

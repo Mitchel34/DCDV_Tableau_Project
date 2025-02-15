@@ -12,7 +12,7 @@ Unnamed: 0,Metro,Mean Software Developer Salary (adjusted),Mean Software Develop
 10,"Dallas-Fort Worth-Arlington, TX",110891.0,111113.0,52590.0,46130.0,243900.0,"Dallas, TX",958.7,1926.5,3128.6,10530.6,Dallas
 11,"Durham-Chapel Hill, NC",110313.0,105018.0,59940.0,6800.0,243700.0,"Durham, NC",994.3,1616.2,2999.9,6464.2,Durham
 12,"Atlanta-Sandy Springs-Roswell, GA",109849.0,106334.0,52750.0,38110.0,219600.0,"Atlanta, GA",1082.3,1865.4,3334.0,8063.0,Atlanta
-13,"Cincinnati, OH-KY-IN",109013.0,98112.0,50030.0,8620.0,169900.0,"Cincinnati, OH",909.8,58597.6,2775.1,7723.6,Cincinnati
+13,"Cincinnati, OH-KY-IN",109013.0,98112.0,50030.0,8620.0,169900.0,"Cincinnati, OH",909.8,1969,2775.1,7723.6,Cincinnati
 14,"Austin-Round Rock, TX",108990.0,109535.0,53810.0,21160.0,311300.0,"Austin, TX",939.6,2214.9,3275.7,9762.4,Austin
 15,"Raleigh, NC",107676.0,103584.0,52580.0,12560.0,267200.0,"Raleigh, NC",963.6,1589.4,2922.2,8892.9,Raleigh
 16,"Houston-The Woodlands-Sugar Land, TX",107672.0,109503.0,54290.0,20400.0,205600.0,"Houston, TX",903.4,1665.8,2852.3,10673.7,Houston
@@ -52,7 +52,7 @@ Unnamed: 0,Metro,Mean Software Developer Salary (adjusted),Mean Software Develop
 50,"Pittsburgh, PA",97043.0,91220.0,50070.0,11060.0,143200.0,"Pittsburgh, PA",1163.7,1503.0,3262.0,7126.9,Pittsburgh
 51,"New York-Newark-Jersey City, NY-NJ-PA",96686.0,118247.0,64550.0,98650.0,442500.0,"New York, NY",1412.9,3840.0,5252.9,6170.5,New York
 52,"New York-Newark-Jersey City, NY-NJ-PA",96686.0,118247.0,64550.0,98650.0,442500.0,"Jersey City, NJ",1141.5,2419.2,3805.7,9619.2,Jersey City
-53,"Milwaukee-Waukesha-West Allis, WI",96580.0,92234.0,51040.0,6710.0,232300.0,"Milwaukee, WI",1011.1,58597.6,2975.8,6737.6,Milwaukee
+53,"Milwaukee-Waukesha-West Allis, WI",96580.0,92234.0,51040.0,6710.0,232300.0,"Milwaukee, WI",1011.1,1465.0,2975.8,6737.6,Milwaukee
 54,"Indianapolis-Carmel-Anderson, IN",96448.0,88732.0,49380.0,8470.0,166800.0,"Indianapolis, IN",948.6,1387.0,2763.0,7499.0,Indianapolis
 55,"Fort Collins, CO",95969.0,98176.0,51050.0,1190.0,383600.0,"Fort Collins, CO",1027.9,1654.6,3090.8,6191.5,Fort Collins
 56,"Charleston-North Charleston, SC",95609.0,91976.0,46200.0,2000.0,255100.0,"Charleston, SC",1091.6,1866.6,3352.9,7482.4,Charleston
